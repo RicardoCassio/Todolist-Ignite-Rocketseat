@@ -1,0 +1,63 @@
+.tasksContent {
+  width: 46rem;
+  margin: 3.875rem auto;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+
+  color: var(--blue);
+  font-weight: bold;
+  font-size: 0.875rem;
+}
+
+.tasksCreated, .tasksCompleted {
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem;
+}
+
+.tasksCreated > div, .tasksCompleted > div {
+  height: 1.187rem;
+  color: var(--gray-200);
+  background: var(--gray-400);
+  border-radius: 999px;
+  padding: 2px 8px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.tasksListed {
+  border-top: 1px solid var(--gray-400);
+  border-radius: 8px;
+
+  margin-top: 1.5rem;
+}
+
+.containerInfoTasksEmpty {
+  height: 15.25rem;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  line-height: 140%;
+}
+
+.titleWarnningTasksEmpty {
+  font-size: 1rem;
+  font-weight: bold;
+  color: var(--gray-300);
+
+  margin-top: 1rem;
+}
+
+.paragraphWarnningTasksEmpty {
+  font-size: 1rem;
+  color: var(--gray-300);
+}
