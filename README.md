@@ -24,8 +24,8 @@
 - [x] Remover uma tarefa da listagem
 - [x] Mostrar o progresso de conclusão das tarefas
 - [x] Remover uma tarefa da listagem
-- [ ] Espandir tarefa para adicionar mais informações (Tempo gasto, descrição, etc...)
-- [] Adicionar inicones de play e stop para indicar quando uma tarefa está em andamento ou parada.
+- [ ] Expandir tarefa para adicionar mais informações (Tempo gasto, descrição, etc...)
+- [] Adicionar icones de play e stop para indicar quando uma tarefa está em andamento ou parada.
 - [ ] Adicionar cronometro para ser iniciado para dar play na tarefa e assim contabilizar o tempo gasto
 
 ### Demo
